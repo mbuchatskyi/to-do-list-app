@@ -1,12 +1,10 @@
 package mbuchatskyi.service.impl;
 
 import mbuchatskyi.exception.NullEntityReferenceException;
-import mbuchatskyi.model.Role;
 import mbuchatskyi.model.State;
 import mbuchatskyi.repository.StateRepository;
 import mbuchatskyi.service.StateService;
 
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityNotFoundException;

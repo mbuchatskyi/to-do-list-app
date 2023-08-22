@@ -1,7 +1,6 @@
 package mbuchatskyi.service.impl;
 
 import mbuchatskyi.exception.NullEntityReferenceException;
-import mbuchatskyi.model.Role;
 import mbuchatskyi.model.Task;
 import mbuchatskyi.repository.TaskRepository;
 import mbuchatskyi.service.TaskService;
@@ -11,7 +10,6 @@ import org.springframework.stereotype.Service;
 import javax.persistence.EntityNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class TaskServiceImpl implements TaskService {
